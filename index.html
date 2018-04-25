@@ -1,0 +1,418 @@
+﻿<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Datos Del Dia Mundial De La Bicicleta</title> 
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/Tema2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <!--   <script src="js/acciones.js"></script> -->
+   <script src="phonegap.js"></script>
+   <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+   </script>
+</head>
+
+ <body onLoad="MM_preloadImages('imagenes/hibrida.jpg','imagenes/MBX.jpg')">
+
+ <div data-role="page" id="Principal" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Dia Mundial De La Bicicleta</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>Banner Conmemorativo       </h1>
+        <div>
+          <p>esta es una imagen de como es la celebracion: </p>
+          <br>
+      </div>
+        <div>
+        <img src="imagenes/bannerbicicleta.jpg" width="640" height="360">
+        </div>
+     </div>
+   </div>
+  <div>
+       <ul data role="listview" data-theme="c" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Historia Original De La Bicicleta</h2>
+         <p>Se muestra informacion sobre la bicicleta</p>
+        </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+         <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Utilizacion Como Medio De Transporte</h2>
+           <p>Se muestra informacion sobre su uso</p>
+         </a>
+        </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Tipos De Bicicletas</h2>
+ <p>Muestra diferentes tipos de bicicletas</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>5 Marcas Importantes De Bicicletas</h2>
+ <p>Muestra las 5  marcas mas importantes de bicicletas</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Porque Se Celebra El Dia Mundial De La Bicicleta</h2>
+ <p>Muestra informacion sobre el porque se celebra el dia mundial de la bicicleta</p>
+ </a>
+ </li>
+ </ul>
+</div>
+<div data-role="footer" align="center" data-theme="c" data-position="fixed">
+<div>
+ <img src="res/android/bike-icon.png" width="128" height="128">
+</div>
+<div>
+<h4>Aplicación 3</h4>
+<h4>Alberto Velasco Bautista</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Historia De La Bicicleta</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+    <p>Lo único que está claro es que la bicicleta es un invento europeo. Dependiendo de lo que consideremos una bicicleta existen unas fechas u otras, siendo la primera bicicleta a pedales patentada como tal y a partir de la cual ha evolucionado la industria en el siglo XX la del británico<strong> John Kemp Starley </strong>en<strong> 1885</strong>, si bien es cierto que se basó en los modelos europeos construidos a lo largo de todo el siglo XIX.</p>
+    <p>Existe la <strong>creencia</strong> de que <strong>Leonardo Da Vinci</strong> creó el primer boceto en papel de una bicicleta (¡que incluía hasta la cadena de transmisión!) a finales del siglo XV, pero el investigador alemán Hans-Erhard Lessing demostró en 1997 que <strong>el diseño se introdujo en los documentos</strong> de Leonardo a partir de 1961. También a finales del siglo XVIII, un francés, el <strong>conde de Sivrac</strong> habría inventado el celerífero, un primitivo cuadro sobre dos ruedas con una cabeza de animal, pero autores como Max Rauck, Gerd Volke y Felix Paturi han <strong>desmentido</strong> esta fecha atribuyéndola a antiguas <strong>rivalidades nacionalistas</strong> entre franceses y alemanes.</p>
+    <p>En <strong>1816</strong>, Karl Dreis, inventor y aristócrata alemán creó lo que sería <strong>el primer vehículo dirigible con dos ruedas en linea</strong>. No tenía ni pedales, ni cadenas, ni frenos, sino que avanzaba y frenaba con los pies, pero sí tenía las ruedas, el sillín, el manillar, el cuadro y un sistema de dirección bastante más aparatoso que el que hoy conocemos. Dreis pensaba que su &ldquo;máquina de correr&rdquo; o <em>laufmaschine</em>, como la bautizó revolucionaría el transporte de su época, pero no pasó de ser una máquina recreativa muy poco utilizada, aunque sirvió como prototipo para otros posteriores.</p>
+    <p>En <strong>1839</strong> el herrero escocés <strong>Kirkpatrick Macmillan</strong> <strong>añadió pedales con barras </strong>a un prototipo. Estas innovaciones permitieron al ciclista impulsar la máquina con los pies sin tocar el suelo. El mecanismo de impulsión consistía en pedales cortos fijados a la rueda trasera y conectados por barras a unos pedales situados delante del ciclista. Era impulsada por el empuje de los pies hacia abajo y hacia adelante. La utilizó para realizar viajes dentro de su Escocia natal, pero no llegó a patentar ni vender su invento, por lo que ante la falta de evidencias documentales de esas fechas <strong>siempre ha habido escepticismo</strong> al rededor de la fecha concreta de creación.</p>
+    <p>En <strong>1845</strong> el escocés <strong>Robert William Thomson</strong> sustituyó las ruedas hechas completamente de madera por unos neumáticos inchables que combinaban cuero y goma, y cuyos remaches le daban tracción al conjunto, aunque su invento cayó en desuso y solo se usó durante algunos años en carruajes.</p>
+    <p>En <strong>1861</strong>, <strong>Ernest Michaux</strong> decidió dotar de unos pedales a la rueda delantera de una vieja draisiana, por lo que el nuevo invento requería de más equilibrio. Se reconoce a Michaux como el precursor directo de la bicicleta aunque se deben citar nombres como <strong>Philip Moritx</strong> o <strong>Galloux</strong> que construyeron bicicletas a pedales para uso particular. El invento de Michaux, la &ldquo;Michaulina&rdquo; se empezó a producir en serie atrayendo la atención de las clases populares y este modelo se hizo muy popular en Francia. El cuadro y las ruedas se fabricaban en madera, y estas última llevaban una banda de hierro que era la que tocaba el suelo. Los pedales estaban colocados en la delantera, que era un poco más alta que la rueda de atrás.</p>
+    <p>En<strong> 1873 </strong><strong>James Starley</strong>, un inventor inglés, produjo la primera máquina con casi todas las características de la famosa bicicleta de rueda alta. La rueda delantera de la máquina de Starley era tres veces más grande que la de atrás. Su uso se hizo muy popular durante la década de las 70 y los 80, tanto que en enero de 1887, el norteamericano<strong> Thomas Stevens</strong> realiza el primer viaje en bicicleta alrededor del mundo. Partió de San Francisco y regresó a la misma ciudad después de pedalear durante más de tres años.</p>
+    <p><strong>En 1885, John Kemp Starley crea la &ldquo;bicicleta de seguridad&rdquo; </strong>o <em>Safety Bicycle</em>, muy parecida a una bicicleta urbana actual. Tenía frenos y la postura era mucho más cercana al suelo, de ahí su nombre. Se añadieron poco después, en <strong>1888</strong>, los <strong>neumáticos con cámara de aire</strong>desarrollados por el irlandés <strong>John Boyd Dunlop</strong>, cuyo tubo interior se rellena de aire amortiguando parte del golpeteo contra los caminos. Las ruedas eran casi del mismo tamaño y los pedales, unidos a una rueda dentada a través de engranajes y una cadena de transmisión, movían la rueda de atrás. La bicicleta de seguridad se extendió rápidamente por todo el mundo industrializado y su precio gracias a la fabricación en serie se fue abaratando cada vez más.</p>
+    <p>En Francia, los <strong>hermanos Michelín</strong> crearon un neumático desmontable y <strong>en Italia, Giovanni Battista Pirelli</strong> hizo lo propio. Con el neumático y unas cuantas cámaras de recambio se podía ir a todas partes. Las bicicletas de entonces pesaban entre 18 y 20 kilos.</p>
+    <p>El <strong>31 de mayo de 1889</strong> nació oficialmente el ciclismo de competición. <strong>Los hermanos </strong><strong>Olivier</strong> , asociados de la fábrica de Michaux, organizaron una carrera en el parque de Saint Cloud de París con 1200 metros de recorrido en la que tomaron parte unos pocos ciclistas. A partir de entonces comenzó la fiebre del ciclismo. En el aspecto técnico se investigaba a marchas forzadas para encontrar nuevas soluciones. La velocidad se convirtió en una obsesión en detrimento del peso, el equilibrio o la seguridad. Los fabricantes tendieron a homogeneizar sus máquinas y las descomunales ruedas delanteras se redujeron a un diámetro de 80 centímetros. Estos inventos, junto con el uso de tubos de acero soldados y los asientos de muelles, llevaron a la bicicleta a la cumbre de su desarrollo.</p>
+    <p>A principios del siglo XX nacerían las <strong>primeras competiciones nacionales</strong> de gran nivel, como el Tour De Francia, o el Giro de Italia pero todos los avances surgidos desde el siglo XIX contribuyeron a crear la bici tal y como la conocemos hoy.</p>
+    <h2>&nbsp;</h2>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+ <img src="res/android/bike-icon.png" width="128" height="128">
+</div>
+   <h4>Aplicación 3,VBA</h4>
+   </div>
+  </div>
+
+
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+ <h1>Uso Como Medio De Transporte</h1>
+ </div>
+  <div data-role="content" align="left">
+  <div>
+    <p>la bicicleta es un medio de transporte  muy común entre sus habitantes.  Y es que se cree que alrededor del mundo, <strong>800 millones de bicicletas ruedan cada día,</strong></p>
+    <p><strong> con ventajas no sólo para las personas sino para el cuidado del medio ambiente.</strong></p>
+    <p>Y aunque en Colombia  todavía somos  temerosos para usar la bicicleta como medio de transporte, su capital, Bogotá, </p>
+    <p>fue escogida recientemente por la fundación española Eroski Consumer como la octava mejor ciudad en el mundo para transportarse en estos vehículos de dos ruedas.</p>
+    <p>Entonces ¿por qué este medio de transporte no es tan usado por los ciudadanos? Muchos se quejan de la inseguridad de sus ciudades como obstáculo para usarla regularmente. </p>
+    <p>Otros argumentan que la geografía de sus ciudades no son las adecuadas para andar en ellas y que incluso, los conductores de autos no respetan su paso y por eso, </p>
+    <p>pueden ser vulnerables de sufrir un accidente de transito.</p>
+    <p>Por estas y muchas más razones, el uso de la bicicleta en Colombia es, en su mayoría, de orden deportivo. <strong>Pero,  si no lo has pensado, usar tu bicicleta como medio de transporte, </strong></p>
+    <p><strong>así sea para recorrer trayectos cortos, puede beneficiar  tu salud, al cuidado del medio ambiente y hasta tu bolsillo.</strong> Conoce las ventajas de usar la bicicleta como medio de transporte:</p>
+    <p> </p>
+    <h3>Ventajas para tu salud</h3>
+    <p>El uso de una bicicleta puede mejorar tu salud física y emocional.</p>
+    <ul>
+      <li> Ayuda al funcionamiento del sistema cardiovascular tonifica los músculos y mejora la capacidad pulmonar. </li>
+      <li>Reduce los niveles de colesterol en la sangre. </li>
+      <li>Ayuda a mejorar la coordinación motriz.</li>
+      <li>Es un excelente ejercicio aerobico que combate los riesgos de sufrir sobrepeso y obesidad.</li>
+      <li>Reduce los niveles de estrés y mejora el estado de ánimo.</li>
+      <li>Puede ser una excelente alternativa para unir a las familias en torno al deporte.</li>
+  </ul>
+    <h3>Ventajas para el cuidado del medio ambiente</h3>
+    <p>Una ciudad con alta circulación de bicicletas por sus calles es, definitivamente, una ciudad amigable con el medio ambiente, pues lo ayuda a reducir los niveles de contaminación ambiental </p>
+    <p><strong>y sus niveles de monóxido y dióxido de carbono, hidrocarburos y otras partículas que favorecen la contaminación del aire.</strong></p>
+    <p>Gracias a estos beneficios es que muchas ciudades en el mundo le apuntan al uso masivo de la bicicleta como alternativa para la movilización de personas. </p>
+    <p>En ciudades como Santiago de Chile, Bogotá, Río de Janeiro, Lima y Medellín, los gobiernos promueven programas de desarrollo de políticas públicas que favorezcan la conducción de bicicletas, como la construcción de ciclorrutas, alquiler de bicicletas públicas y otros novedosos proyectos que han logrado un aumento significativo del uso de los vehículos de dos ruedas en el continente.</p>
+    <p>El transporte en bicicleta es una práctica totalmente ecológica porque <strong>promueve la disminución de la misión de gases tóxicos para el ambiente y la adopción de estilos de vida saludables para las personas</strong></p>
+    <p> </p>
+    <h3>Ventajas para el cuidado de la economía familiar</h3>
+    <p>Al usar la bicicleta, también estarás ahorrando muchísimo dinero, pues no gastarías en <strong>impuestos, gasolina, parqueaderos, peajes, gastos de mantenimiento, pago de pasajes de servicio de transporte público, </strong></p>
+    <h2>&nbsp;</h2></div>
+ </div>
+ <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+<div>
+ <img src="res/android/bike-icon.png" width="128" height="128">
+</div>
+   <h4>Aplicación 3,VBA</h4>
+   </div>
+  </div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Tipos De Bicicletas </h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+    <p>Los diferentes diseños de las bicicletas están basados en su funcionalidad: para que tipo de terreno, desarrollo de velocidad, menor peso o mayor fortaleza, etc. </p>
+    <p>Vamos dar las características de los más usuales para ayudarte a elegir la bicicleta que mejor se adapte a tu persona y necesidades.</p>
+    <h4>Bicicletas de Montaña (MTB)</h4>
+    <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/hibrida.jpg',1)"><img src="imagenes/MTB.jpg" width="640" height="480" id="Image25"></a>&nbsp;</p>
+    <p>Las bicicletas de montaña (también conocidas como MTB) están diseñadas para &ldquo;fuera de ruta&rdquo; por lo que son bastante resistentes.</p>
+    <p> Están equipadas con llantas anchas con dibujos marcados para mejorar el agarre en terrenos sueltos. Regularmente usan manubrios rectos o de doble altura.<br>
+      Las MTB se pueden encontrar sin suspensión (rígidas), con suspensión delantera (hardtail) o con doble suspensión (full-suspension) dependiendo de su especialidad:<br>
+      Cross country<br>
+      Enduro<br>
+      Downhill<br>
+      Freeride</p>
+    <h4>Bicicletas de Ruta</h4>
+    <p><img src="imagenes/ruta.jpg" width="640" height="480">&nbsp;</p>
+    <p>Son bicicletas orientadas a obtener velocidad en pavimento, de construcción más ligera que otras bicicleta, están dotadas con ruedas más grandes, </p>
+    <p>delgadas y provistas de llantas angostas y con dibujo liso. Las bicis de ruta utilizan manubrios drop-bar para lograr una postura más aerodinámica.</p>
+    <h4>Bicicletas Híbridas</h4>
+    <p><img src="imagenes/hibrida.jpg" width="640" height="480">&nbsp;</p>
+    <p>Las bicicletas híbridas son bastante versátiles ya que combinan características de las bicis de montaña y de las de ruta.Estas bicicletas nacieron como una solución para quienes necesitan una bicicleta para la ciudad, </p>
+    <p>pero que tenga la flexibilidad de ser usada en diferentes terrenos. Los cuadros son resistentes y con una geometría que permite adoptar una posición cómoda que permite relajar los brazos y el cuello.</p>
+    <h4>Bicicletas Urbanas</h4>
+    <p><img src="imagenes/ciudad.jpg" width="640" height="480">&nbsp;</p>
+    <p>En este caso nos referimos como bicicleta urbana a las bicis estilo holandés (Dutch).<br>
+      Estas bicicletas fueron concebidas para la ciudad, por lo que son de construcción bastante solida tanto en su cuadro como en sus ruedas.</p>
+    <p> Están perfectamente adecuadas para soportar las condiciones de una ciudad (baches, banquetas, topes, etc.)</p>
+    <p>Por lo general cuenta con guardabarros para días de lluvia, portaequipaje y/o canasta para transportar todo lo que necesitas para ir al trabajo, al supermercado, etc. </p>
+    <p>Una característica común en este tipo de bicicletas es la presencia de luces para mantenernos siempre visibles a los conductores.<br>
+      Normalmente tienen una sola velocidad, o sistema de cambios internos de ser necesario.<br>
+      Estas bicicletas permiten una posición relajada de torso y brazos.</p>
+    <div></div>
+    <h4>Bicicletas plegables</h4>
+    <p>&nbsp;</p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/MBX.jpg',1)"><img src="imagenes/plegable.jpg" width="640" height="480" id="Image24"></a>
+    <p>La gran mayoría de estas bicicletas usan ruedas pequeñas, siendo 16 y 20″ las más comunes, aunque es posible encontrar plegables con rodados más convencionales. </p>
+    <p>Casi todas las plegables están diseñadas para uso urbano, no obstante existen modelos que aguantan viajes largos sin problemas.<br>
+      Un inconveniente de de las ruedas pequeñas es que son más sensibles a las imperfecciones del camino, aunque si lo que necesitas es una bici que puedes llevar contigo en todo momento no hay como una plegable.<br>
+      En general vienen equipadas con 18- 20 cambios.    </p>
+    <h4>Cruisers</h4>
+    <p><img src="imagenes/cruiser.jpg" width="640" height="480"></p>
+    <p>Este tipo de bicicletas están diseñadas para trayectos cortos y sobre pavimento preferencialmente. Su geometría y manubrio característico permiten una postura sumamente relajada.</p>
+    <p> Estas bicicletas suelen ser pesadas y usan llantas anchas lo que las hace poco eficientes en trayectos de más de 10km. Normalmente tienen una sola velocidad aunque algunos fabricantes tienen modelos con tres velocidades. </p>
+    <p>Otra característica común en las cruiser son los frenos de contrapedal.</p>
+    <h4>MBX</h4>
+    <p><img src="imagenes/MBX.jpg" width="640" height="480">&nbsp;</p>
+    <p>Las BMX utilizan cuadros pequeños y resistentes, ideales para saltos y acrobacias. Existen diferentes variables de estas bicicletas, algunas con llantas anchas para usarse en terrenos sueltos </p>
+    <p>y otras con llantas un poco más delgadas y lisas para usarse en rampas o en la calle. Estas bicicletas no son eficientes como medio de transporte.</p>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="res/android/bike-icon.png" width="128" height="128">
+</div>
+   <h4>Aplicación 3,VBA</h4>
+   </div>
+  </div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>5 Marcas Importantes De Bicicletas</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+  <h2>&nbsp;</h2>
+  <h3><strong>1-</strong><strong>Specialized</strong></h3>
+  <p>Cómo no podía ser de otra manera encabeza la lista la prestigiosa marca americana. La firma de la &ldquo;s&rdquo; es, indiscutiblemente, y por méritos propios, <strong>la mejor marca de bicicletas del mundo. </strong></p>
+  <p><strong>A su favor juega la indudable calidad de todos sus productos y el enorme prestigio del que goza entre los usuarios del mundo ciclista</strong>. </p>
+  <p>Los de Morgan Hill llevan años jugando en otra liga y son referentes en absolutamente todas las facetas de mercado. <strong>Cuadros de bicicleta, componentes, ropa y complementos</strong>. Su cuota de mercado, </p>
+  <p>especialmente en bicicletas de gama media-alta es espectacular y sus ventas por todo el mundo lo atestiguan. </p>
+  <p>Entre sus modelos de carretera más destacados:<strong> la Specialized Tarmac, Venge o Allez, y para la práctica del triatlón la Specialized Shiv.</strong>  </p>
+  <hr>
+  <h3><strong>2-Scott</strong></h3>
+  <p>La marca Suiza sigue creciendo y parece dispuesta a seguir el camino de Specialized ampliando su cartera de productos a prácticamente todo el sector ciclista. </p>
+  <p>Scott ya fábrica a día de hoy, además de bicicletas, <strong>cascos, zapatillas, gafas y ropa entre otros complementos</strong>, consiguiendo así fidelizar gran parte de sus clientes.</p>
+  Scott plasma: una de las mejores bicicletas para triatlón.
+  <p>La <strong>espectacularidad de sus diseños</strong> es otro punto fuerte de la marca, especialmente en carretera, donde los acabados de algunos modelos son realmente buenos y en los que se puede entrever un minucioso estudio aerodinámico. </p>
+  <p>La geometría de gran parte de sus cuadros (por ejemplo la de la Scott Foil) es bastante más agresiva que la de otras marcas, dando un toque &ldquo;racing&rdquo; bastante valorado por parte de los usuarios.  </p>
+  <p>Los mejores <a href="https://www.scott-sports.com/es/es/">modelos de bicicletas Scott </a>son:<strong> Scott Foil, Scott Addict o la espectacular Scott plasma para triatlón.</strong></p>
+  <hr>
+  <h3><strong>3-Trek</strong></h3>
+  <p>En tercera posición encontramos al gigante norteamericano <strong>Trek, todo un referente a nivel de ventas mundiales con muchos años a la estela de Specialized.</strong></p>
+  <p>Trek es una de las mejores marcas del mercado, y pese a su bajón mediático con la polémica de Lance Armstrong<strong>, siempre ha sido una de las más populares entre los aficionados al mundo del ciclismo</strong>. </p>
+  <p>Esto le permite vender gran cantidad de bicicletas de todo a tipo y a todo el mundo, gozando de una excelente presencia en el mercado americano. </p>
+  <p>Precisamente con el fin de corregir esa mala imagen que les dejo Lance Armstrong, decidieron crear su propio equipo ciclista profesional (Trek Segafredo) </p>
+  <p>y <strong>volver a cambiar, junto a la figura de Alberto Contador, su imagen de marca.</strong> Tras su retirada podría ser uno de sus embajadores de la marca a nivel mundial.  </p>
+  <p>A nivel de mejora, seguramente tengamos a la amplitud de su catálogo que descuida bastante la línea media de producto, especialmente en carretera.</p>
+  <p>Los <a href="https://www.trekbikes.com/es/es_ES/bicicletas/bicicletas-de-carretera/c/B200/">modelos más destacados de carretera de Trek</a> son<strong> la Trek Emonda, Madone o Domane</strong>. Haciendo con ellos de paso un juego de letras bastante comercial.</p>
+  <hr>
+  <h3><strong>4-Giant</strong></h3>
+  <p>En cuarta posición tenemos <strong>al mayor fabricante de bicicletas del mundo (fabrica también para terceros). </strong>La empresa con sede en Taiwan es<strong> un referente en cuanto a comodidad.</strong> </p>
+  <p>Sus bicicletas son tremendamente cómodas y pese a que sus diseños y geometrías no han sido, hasta el momento, demasiado agresivas,<strong> siguen gustando a un público más clásico.</strong> </p>
+  <p>Giant ha sido pionero en el mundo ciclista,<strong> por ejemplo inventando la primera bicicleta de carretera con sloping bajo.</strong> La valoración de aquellos que han tenido una Giant generalmente es muy buena.</p>
+  Sunweb ha cosechado en este 2017 su primer gran éxito internacional de la mano de Tom Dumoulin en el Giro de Italia
+  <p><strong>En contra de la marca juega su poca repercusión mediática</strong>, quizá por la falta de un referente a nivel de imagen visible y la falta de modelos con agresividad tanto en geometría como en colores. </p>
+  <p><strong>Otro aspecto a mejorar es la falta de un modelo de referencia en el mercado, </strong>aunque su <strong>Propel Advanced</strong> es el más conocido. </p>
+  <hr>
+  <h3><strong>5-Canyon</strong></h3>
+  <p>La quinta posición está ocupada por un &ldquo;rara avis&rdquo; del sector. <strong>Canyon es la única marca de bicicletas que solo vende por internet y que no ofrece sus bicicletas en tienda física.</strong></p>
+  <p> Pese a contar, a priori, con este &ldquo;hándicap&rdquo; la marca es conocida por prácticamente todos los ciclistas de carretera y <strong>la enorme calidad de sus productos goza de una muy buena consideración entre los aficionados y profesionales del sector.</strong></p>
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/canyon.jpg" alt="Canyon" title="Canyon" id="wows1_0"/></li>
+		<li><img src="data1/images/giant.jpg" alt="Giant" title="Giant" id="wows1_1"/></li>
+		<li><img src="data1/images/scott.jpg" alt="Scott" title="Scott" id="wows1_2"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/trek.jpg" alt="wow slider" title="Trek" id="wows1_3"/></a></li>
+		<li><img src="data1/images/specialized.jpg" alt="Specialized" title="Specialized" id="wows1_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Canyon"><span><img src="data1/tooltips/canyon.jpg" alt="Canyon"/>1</span></a>
+		<a href="#" title="Giant"><span><img src="data1/tooltips/giant.jpg" alt="Giant"/>2</span></a>
+		<a href="#" title="Scott"><span><img src="data1/tooltips/scott.jpg" alt="Scott"/>3</span></a>
+		<a href="#" title="Trek"><span><img src="data1/tooltips/trek.jpg" alt="Trek"/>4</span></a>
+		<a href="#" title="Specialized"><span><img src="data1/tooltips/specialized.jpg" alt="Specialized"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+<div>
+ <img src="res/android/bike-icon.png" width="128" height="128">
+</div>
+   <h4>Aplicación 3,VBA</h4>
+  </div>
+  </div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Porque El Dia Mundial De La Bike</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+    <h1>Día Mundial de la bicicleta</h1>
+    <div>
+      <p>El 19 de abril, se celebra el <strong>Día Mundial de la Bicicleta</strong> con el objetivo de promocionar este medio de transporte y llamar la atención sobre los derechos de los ciclistas.</p>
+      <p>Se celebra este día, porque el 19 de abril de 1943 el doctor Albert Hofmann, padre del LSD, ingirió a propósito 250 µg de LSD. Tras ingerir la sustancia, Hofmann sintió que le costaba hablar de forma inteligible </p>
+      <p>y pidió a su asistente de laboratorio, que estaba al tanto del experimento, que le acompañase en su viaje a casa en bicicleta, pues, por las restricciones del período de guerra, no había automóviles disponibles.</p>
+      <p>Durante el viaje a casa, el estado de Hofmann se agravó, posteriormente escribiría en su diario que todo lo que había en su campo de visión ondulaba, distorsionado como una imagen en un espejo cóncavo. </p>
+      <p>Aunque avanzaba velozmente, tuvo la sensación paradójica de que permanecía inmóvil. Cuando llegó a casa, llamó a un doctor y pidió a su vecina algo de leche, creyendo que le ayudaría a recuperarse.</p>
+      <p>Cuando llegó el médico, no encontró ningún síntoma físico anormal, salvo las pupilas extremadamente dilatadas. Tras pasar varias horas aterrorizado, convencido de que un demonio había poseído su cuerpo,</p>
+      <p> de que su vecina era una bruja y de que el mobiliario de su casa le amenazaba, el doctor Hofmann pensó que había enloquecido por completo.</p>
+      <p>Durante su &lsquo;viaje&rsquo;, las impresiones acústicas (como el ruido de un automóvil que pasaba) se transformaban en imágenes. Hofmann, al día siguiente despertó fresco y con la mente clara, aunque con cierto cansancio corporal.</p>
+      <p> Desayunó con una sensación de bienestar y vida renovada, y encontró la comida deliciosa. Mientras caminaba por el jardín, notó que todos sus sentidos &ldquo;vibraban con una sensibilidad superior&rdquo;, que duró durante todo el día.</p>
+      <p>Desde entonces, todos los años, el 19 de Abril en todo el mundo la gente coge su bici para rememorar aquel &ldquo;primer viaje&rdquo; en bicicleta del doctor Hofmann.</p>
+      <p>En la actualidad, existen unas 800 millones de bicicletas en el mundo y son utilizadas como medio de transporte principal o como vehículo de ocio. </p>
+      <p>De cara al cuidado de las personas representa un completo ejercicio físico mientras que para el medio ambiente,</p>
+      <p> su uso significa una disminución de las emisiones de CO2 a la atmósfera y una contribución para frenar el cambio climático.</p>
+      <p>&nbsp;</p>
+    </div>
+    <h2>&nbsp;</h2>
+  </div>
+ <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+<div>
+ <img src="res/android/bike-icon.png" width="128" height="128">
+</div>
+   <h4>Aplicación 3,VBA</h4>
+  </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       
